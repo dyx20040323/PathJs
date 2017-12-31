@@ -1,0 +1,22 @@
+欢迎使用PathJs！
+说明：
+PathJs是一款响应式JavaScript UI框架，他有着出色的能力，帮助你化繁为简。有了他，你大可不必担心繁杂的UI设计工作，只需2行代码，轻松胜任工作里的一切事物。PathJs，极简，不凡
+
+PathJs由Skyogo工作室于2017/12/30日推出，你可以叫他完成许多繁杂的响应式动态效果，只需两行代码，轻松胜任！
+
+PathJs有多达156种简约图标，全部来自阿里官方图标库，和谷歌官方图标库，放在了PathJs包的img/icon文件夹中，同时还有许多内置颜色，随时等待你的使用
+
+同时PathJs完全支持自定义UI控件样式和创建属于你自己的UI控件，这些教程我们完全公开！
+
+赶快去体验PathJs吧！
+
+
+
+------以下是JS框架基础导入操作说明（会的也要看，必需）------
+（不管怎么样，都不能变化PathJs包的目录结构！切记！）
+Step1 创建一个Html文件
+Step2 在Html文件的<head>（只能在Head标签里写！）标签写入<script type="text/javascript" src="js/pathjs.js"></script>
+Step3 在script的标签后面再写一个<script></script>（所有的PathJs代码在这里面写）
+------Finish------
+
+【读到这里，可能有人会问，为什么没有导入CSS文件？那是因为，在PathJs里，不需要手动引入CSS文件，JS文件会自动引入CSS文件的，如果你在body里写入了script标签，那么会导入失败，这就是为什么只能在Head标签导入的原因】

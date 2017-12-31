@@ -1,0 +1,37 @@
+欢迎使用PathJs！
+说明：
+这篇是说明PathJs 所有内置资源的文档
+
+
+内置字体颜色表格：
+颜色：	CSS样式名称：（全部为class）
+深绿	pathjs-color-darkGreen
+绿色	pathjs-color-green
+黑色	pathjs-color-black
+天蓝色	pathjs-color-skyBlue
+黄色	pathjs-color-yellow
+橙色	pathjs-color-orange
+蓝色	pathjs-color-blue
+天黑色	pathjs-color-skyBlack
+灰色1	pathjs-color-gray1
+灰色2	pathjs-color-gray2
+灰色3	pathjs-color-gray3
+灰色4	pathjs-color-gray4
+灰色5	pathjs-color-gray5
+灰色6	pathjs-color-gray6
+灰色7	pathjs-color-gray7
+
+
+内置背景颜色表格：
+颜色	CSS样式名称：（全部为class）
+红色	pathjs-bg-red
+橙色	pathjs-bg-orange
+绿色	pathjs-bg-green
+天黑色	pathjs-bg-skyBlack
+蓝色	pathjs-bg-blue
+黑色	pathjs-bg-black
+灰色	pathjs-bg-gray
+
+
+
+除此之外还有多达150种不同实用图标在img/icon文件夹下！

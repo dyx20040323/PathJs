@@ -1,0 +1,32 @@
+PathJs UI控件一览表
+说明：
+在这篇文档里，你可以查看PathJs所有的UI控件和他们对应的参数
+
+
+名称：	英文名称：	参数：	           可以创建多个：
+提示框：	tip	Div、id、content	true
+警告框：	alert	Div、id、content、title	false
+表格：	table	Div、id、content、title	true
+视频：	video	Div、id、size、url	false
+网页：	iframe	Div、id、size、title、url	false
+音乐：	audio	Div、id、url	false
+导航栏：	navigationBar	Div、id、content	false
+按钮：	button	Div、id、content、size、code	true
+文本：	text	Div、id、size、content	true
+记号：	mark	Div、id、size、content	true
+代码域：	code	Div、id、content、size、title	true
+
+特别注意：
+1、回调参数所有UI都可以使用，不是必须！
+2、table里title参数是表头，（记住！PathJs全部支持HTML代码，所以你在这里可以写<tr><td></td></tr>），content参数是表体
+3、video的size参数只能设置为：small、middle、large这三个，如果想设置更多，请参阅“PathJs之自定义样式”
+4、iframe的size参数的设定规则为：height[空格]width（不需
+
+要加px）样例：200 300
+5、navigationBar的content你完全可以设置为HTML代码！
+6、button的code参数是在button被点击时触发
+7、text的size也只有small、middle、large这三个，如果想设置更多，请参阅“PathJs自定义CSS样式”
+8、mark的size请按照设置规则来设置，设置规则为：[1或者2]+[颜色]（+为连接的意思）
+（1为小圆点样式，不能设置content，2为文本正方形样式，支持content）
+颜色总览：red、yellow、blue、green、black、gray、white
+9、code支持多行，只要在content参数中设置<br>即可让后面代码自动匹配到下一行，size是code的宽度（不用加px），样例：123<br>456

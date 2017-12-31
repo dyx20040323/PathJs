@@ -1,0 +1,18 @@
+PathJs方法一览表
+说明：
+这个文档包括所有PathJs里的方法 
+
+
+方法名：	         参数：	       	       	       	       	       	       作用：
+pathjsCreate	type,div,title,content,id,url,size,code,callBackCode	创建一个控件
+pathjsShow	id,callBackCode	显示一个控件
+pathjsHide	id,callBackCode	隐藏一个控件
+pathjsDelete	Id,type,callBackCode（type参数填写要删除的这个id是UI控件的什么类型，比如button）	删除一个控件
+pathjsGetValue	id,callBackCode	获取PathJs控件的值
+pathjs		获取当前PathJs的版本和具体的一些参数
+
+PathjsDelete使用情景：当你需要改变控件的某项参数，但是在控件只能创建一个的情况下，你就需要使用pathjsDelete方法来删除控件，然后重新创建
+
+pathjsGetValue会使用return来返还这个控件的值
+
+pathjs方法也使用return返回
